@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>reveal.js - The HTML Presentation Framework</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2 style="font-family: 'TF';">Cloud Confidential</h2>
+                <img style="height: 50%; width: 50%" src="images/fire.jpg">
+                <p style="font-size: 40px; font-family: 'TF';">A Culture and Growth Conversation</p>
+            </section>
+
+            <section id="fragments">
+                <h2>whoami</h2>
+                <p class="fragment">I am an operational tool and infrastructure developer at Yieldbot who is lazy by nature.
+                    <img style="float: center;" src="images/ac1.jpg"></p>
+            </section>
+
+            <section>
+                <img style="width: 125%; height: 125%" src="images/cooler.jpg">
+                <audio data-autoplay src="images/job_quit.m4a"></audio>
+            </section>
+
+            <section id="fragments">
+                <p style="font-size: 80px;">Resturant Life</p>
+                <section id="fragments">
+                    <ul>
+                        <li class="fragment">Long Hours</li>
+                        <li class="fragment">Peter Principle</li>
+                        <li class="fragment">Burnout</li>
+                        <li class="fragment">Imposter Syndrome</li>
+                        <li class="fragment">Trickle Down Environment</li>
+                        <li class="fragment">Training?</li>
+                        <li class="fragment">Relationship Issues</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <img style="width: 125%; height: 125%" src="images/cooler.jpg">
+                <audio data-autoplay src="images/job_quit.m4a"></audio>
+            </section>
+
+            <section id="fragments">
+                <p style="font-size: 80px;">IT Life</p>
+                <section id="fragments">
+                    <ul>
+                        <li class="fragment">Long Hours</li>
+                        <li class="fragment">Peter Principle</li>
+                        <li class="fragment">Burnout</li>
+                        <li class="fragment">Imposter Syndrome</li>
+                        <li class="fragment">Trickle Down Environment</li>
+                        <li class="fragment">Training?</li>
+                        <li class="fragment">Relationship Issues</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <h2>Long Hours</h2>
+            </section>
+
+            <section>
+                <h2>Peter Principle</h2>
+            </section>
+
+            <section>
+                <h2>Burnout</h2>
+            </section>
+
+            <section>
+                <h2>Imposter Syndrome</h2>
+            </section>
+
+            <section>
+                <h2>Trickle Down Environment</h2>
+            </section>
+
+            <section>
+                <h2>Training?</h2>
+            </section>
+
+            <section>
+                <h2>Relationship Issues</h2>
+            </section>
+
+            <section>
+                <h2>Additional Resources</h2>
+                <ul>
+                    <li><a href="https://github.com/github/hubot/blob/master/docs/scripting.md">Hubot Scripting Primer</a></li>
+                    <li><a href="https://github.com/hubot-scripts/hubot-heroku-keepalive">hubot-heroku-keepalive</a></li>
+                    <li><a href="https://hubot.github.com/docs/">Hubot Docs</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Images</h2>
+                <ul>
+                    <li>https://www.tumblr.com/search/autobot%20gif</li>
+                    <li>http://giphy.com/gifs/out-roll-autobots-BZaGpT3O0EMiA</li>
+                    <li>http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/char_5207.jpg</li>
+                    <li>http://usercontent2.hubimg.com/6183365_f520.jpg</li>
+                    <li>http://usercontent2.hubimg.com/6183365_f520.jpg</li>
+                    <li>http://vignette3.wikia.nocookie.net/transformers/images/0/0e/Lolpuberty.jpg/revision/latest?cb=20070116055254</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Questions?</h2>
+                <ul>
+                    <li>Slack: <a href="https://bosops-invite.herokuapp.com/">BosOps</a></li>
+                    <li>Twitter: <a href="https://twitter.com/DevopsMatt">@DevopsMatt</a></li>
+                    <li>Github: <a href="https://github.com/mattyjones">mattyjones</a></li>
+                    <li>Meetup: <a href="http://www.meetup.com/Boston-Infrastructure-Coders/">Boston Infrastructure Coders</a></li>
+                    <li>Yieldbot is <a href="https://www.yieldbot.com/careers/">hiring</a>, come build cool stuff!</li>
+                </ul>
+                <img src="images/autopan.jpg">
+            </section>
+
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: false,
+            center: false,
+            touch: true,
+            loop: false,
+            slideNumber: true,
+            transition: 'convex',
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function() {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }]
+        });
+    </script>
+</body>
+
+</html>
